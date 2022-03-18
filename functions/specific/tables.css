@@ -1,0 +1,28 @@
+
+table{
+  width:100%;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-size:8px;
+}
+
+th, td {
+  padding:5px;
+}
+
+.nobreak{
+  word-break: keep-all;
+}
+
+.EmployeeRow:hover{
+  background-color:#262626;
+}
+
+@media screen and (min-width: 640px) {
+  table, th, td {
+    font-size:13px;
+  }
+}

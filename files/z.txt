@@ -1,0 +1,7 @@
+<div class="lbarmiddle" style="margin-left:-0px;">
+  <a href="../info/discord.html"><button class="extrabutton"><i class="fab fa-discord linkiconleft supporticon"></i>
+  <span class="coffeelink">TheRabbitHole</span></button></a>
+  <a href="../info/discord.html"><button class="extrabutton"><i class="fas fa-user-group linkiconleft supporticon"></i>
+  <span class="coffeelink">Collaboration (TBA)</span></button></a>
+</div>
+

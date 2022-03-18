@@ -1,0 +1,96 @@
+
+/*Left Navigation Column Configuration*/
+.sidenav::-webkit-scrollbar{
+  display:none; /* Scrollbar Hidden On Chrome/ & Safari & Opera */
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  bottom:0;
+  top:0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+  -ms-overflow-style: none;  /* Scrollbar Hidden On IE & Edge */
+  scrollbar-width: none;  /* Scrollbar Hidden on Firefox*/
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.navlink{
+  padding: 0px 8px 8px 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size:18px;
+  color:magenta;
+  display:block;
+  white-space: nowrap;
+}
+
+.navlink:hover{
+color:yellow;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.navtitle{
+  color:whitesmoke;
+  font-family:F25;
+  font-size:18px;
+  text-align:center;
+  float:center;
+  text-decoration:none;
+}
+
+a.navtitle:hover{
+  text-decoration:underline;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.navlinkdocument{
+  padding: 0px 8px 8px 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size:62%;
+  color:magenta;
+  display:block;
+  white-space: nowrap;
+}
+
+.navlinkdocument:hover{
+  color:yellow;
+}
+
+@media screen and (min-width: 960px) {
+  .sidenav .navlinkdocument{
+    font-size:64%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sidenav .navlinkdocument{
+    font-size:12px;
+  }
+}
+
+/*-----------------------------------------------------------------------------*/
+
+@media screen and (max-height: 450px){
+  .leftnav {padding-top: 15px;}
+  .leftnav a {font-size: 18px;}
+}
+
+.navfieldset{
+  width:300px;
+  margin-top:15px;
+  border:3px whitesmoke solid;
+}
+
+*:target {
+  color: #ffff00;
+}

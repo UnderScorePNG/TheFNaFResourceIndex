@@ -1,0 +1,65 @@
+.contentboxlinks{
+  border:3px whitesmoke solid;
+  padding:14px;
+  border-radius:1px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.titlelink{
+  color:whitesmoke;
+  font-family:F25;
+  font-size:12px;
+  text-align:center;
+  float:center;
+  text-decoration:none;
+}
+
+a.titlelink:hover{
+  text-decoration:underline;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.linkicon{
+  margin-right:5px;
+  font-size:11px;
+}
+
+@media screen and (min-width: 640px) {
+  .linkicon{
+    font-size:16px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.resourcelink{
+  margin-left:5px;
+  font-size:11px;
+}
+.resourcelink a{
+  color:whitesmoke;
+  text-decoration:none;
+}
+.resourcelink a:hover{
+  color:whitesmoke;
+  text-decoration:underline lightgray;
+}
+
+@media screen and (min-width: 640px) {
+  .titlelink, .resourcelink{
+    font-size:18px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.paragraphlink{
+color:white;
+}
+
+.paragraphlist{
+  padding-left:30px;
+  padding-right:30px;
+}

@@ -1,0 +1,114 @@
+.socialsbar{
+  width: 100%;
+  text-align:center;
+  font-size:25px;
+}
+
+.assistbar{
+  margin-left:-7px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align:center;
+  font-size:35px;
+}
+
+@media screen and (min-width: 640px) {
+  .socialsbar, assistbar{
+    font-size:35px;
+  }
+}
+
+.barbutton{
+  color:whitesmoke;
+  transition: color 0.03s;
+}
+
+.barbutton:hover{
+  color:white;
+}
+
+.barbutton>i{
+  transition:.25s;
+}
+
+.barbutton>i:hover{
+  transform:scale(1.25);
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.extrabutton{
+  background-color: white;
+  border: 2px;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius:6px;
+  font-family: Cookie;
+  transition:.25s;
+}
+
+.extrabutton:hover{
+  transform:scale(1.10);
+}
+
+.supporticon{
+  font-size:10px;
+}
+
+.coffeelink{
+  text-decoration:none;
+  color:black;
+}
+
+/*----------------------------------------------------------*/
+
+.supporter{
+  background-color: #262626; /* Green */
+  border:solid 2px white;
+  color: white;
+  text-decoration:none;
+  font-size:25px;
+  font-family:Cookie;
+  transition:.25s;
+  margin-bottom:5px;
+  margin-top:5px;
+  padding:5px 20px 5px;
+  border-radius:12px;
+  cursor: pointer;
+}
+
+.supporter:hover{
+  transform:scale(1.15);
+}
+
+.supporterlink{
+  text-decoration:none;
+  font-size:20px;
+  color:white;
+}
+
+@media screen and (min-width: 640px) {
+  .extrabutton{
+    padding:16px;
+    font-size:25px;
+    border-radius:12px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .coffeeicon{
+    height:20px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .supporticon{
+    font-size:18px;
+  }
+}
