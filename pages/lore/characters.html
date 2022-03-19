@@ -12,16 +12,17 @@
     <link href="/functions/overall/text.css" rel="stylesheet" type="text/css" />
     <link href="/functions/specific/buttons.css" rel="stylesheet" type="text/css" />
     <link href="/functions/specific/tables.css" rel="stylesheet" type="text/css" />
+    <link href="/functions/specific/dropdown.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <a href="/index.html" class="LogoLink"><img src="/images/Logo.png" class="pagelogo logoanim" title="Under_Score"></a>
     <div id="Container">
-        <p class="titlelink">Company Employment Database</p>
+        <p class="titlelink">FNaF Character Index</p>
 
         <table>
             <tr class="EmployeeRow">
-                <th colspan="7">Fazbear Entertainment 3rd Floor Employees</th>
+                <th colspan="7" id="T1">Fazbear Entertainment 3rd Floor Employees</th>
                 <tr class="EmployeeRow">
                     <th>Name</th>
                     <th>Company</th>
@@ -95,7 +96,7 @@
                     <td>Pineapple</td>
                 </tr>
                 <tr class="EmployeeRow">
-                    <td>Vanessa Afton</td>
+                    <td>Vanessa A</td>
                     <td>Fazbear Entertainment</td>
                     <td>Security</td>
                     <td></td>
@@ -148,12 +149,27 @@
                     <td>December</td>
                     <td>Lemon</td>
                 </tr>
+                <tr class="EmployeeRow">
+                    <td colspan="7">
+                        <input type="checkbox" id="btnControl1">
+                        <label class="btn" for="btnControl1">
+                            <div class="addinfo">Additional Info</div>
+                            <span class="hidden">
+                                <br>Kenneth Freeman - Red Team Leader
+                                <br>Stan Howser - Blue Team Leader
+                                <br>Shonda Ford - Yellow Team Leader
+                                <br><br> According to something Vanessa says in The Therapist Tapes, Luis may have transferred from IT to Marketing at some point.
+                                <br><br> Vanessa Afton - Transferring from Security to Security (Transfer Request). The "Security" Position that Vanessa's Transfering Into is as Chief Security Officer at The PizzaPlex. Despite a Lack of Experience, Vanessa was accepted for the position, likely due to Manipulation from a Corporate Head of Fazbear Entertainment.
+                            </span>
+                        </label>
+                    </td>
+                </tr>
         </table>
         <br>
         <br>
         <table>
             <tr class="EmployeeRow">
-                <th colspan="4">Fazbear Entertainment Miscellaneous Employees</th>
+                <th colspan="4" id="T2">Fazbear Entertainment Miscellaneous Employees</th>
                 <tr class="EmployeeRow">
                     <th>Name</th>
                     <th>Company & Project</th>
@@ -261,12 +277,29 @@
                     <td>Customer Service</td>
                     <td></td>
                 </tr>
+                <tr class="EmployeeRow">
+                    <td colspan="7">
+                        <input type="checkbox" id="btnControl2">
+                        <label class="btn" for="btnControl2">
+                            <div class="addinfo">Additional Info</div>
+                            <span class="hidden">
+                                <br> Christie Buckley - Tranferring from Marketing to Social Media Content Management (Restructuring)
+                                <br> Diannah Larimore - Being Layed Off from Marketing (Restructuring)
+                                <br> Paul G - Transferring from Office Administration to Executive Administration (Promotion)
+                                <br> Bettie M - Tranferring from Internship Program to Development (Permanant Hire)
+                                <br> Timothy M - Transferring from Internship Program to Social Media Content Management (Permanant Hire)
+                                <br> Maria A - Being Layer Off from Marketing (Restructuring)
+                                <br><br> After Fazbear Entertainment realized that The Afton Virus had infiltrated The Fazbear Funtime Service Systems, they ordered The Client Company to cease all work on the Project. Work on The Fazbear Funtime Service was continued by 4 or more Employees at Fazbear Entertainment.
+                            </span>
+                        </label>
+                    </td>
+                </tr>
         </table>
         <br>
         <br>
         <table>
             <tr class="EmployeeRow">
-                <th colspan="2">The Fazbear Funtime Service Client Company</th>
+                <th colspan="2" id="T3">The Fazbear Funtime Service Client Company</th>
                 <tr class="EmployeeRow">
                     <th>Name</th>
                     <th>Company & Project</th>
@@ -299,12 +332,25 @@
                     <td>J B</td>
                     <td>Client Company - The Fazbear Funtime Service</td>
                 </tr>
+                <tr class="EmployeeRow">
+                    <td colspan="7">
+                        <input type="checkbox" id="btnControl3">
+                        <label class="btn" for="btnControl3">
+                            <div class="addinfo">Additional Info</div>
+                            <span class="hidden">
+                                <br><div class="documentparagraph">After Fazbear Entertainment realized that The Afton Virus had infiltrated The Fazbear Funtime Service Systems, they ordered The Client Company to cease all work on the Project. Work on The Fazbear Funtime Service was continued by 4 or more Employees at Fazbear Entertainment.</div>
+                                <br>
+                                <div class="documentparagraph">Channel Management - It's a bit tricky to understand how exactly each Client Company interacts with the others in order for The Fazbear Funtime Service to function properly, however odds are the System looks something like this. The Behavior of The Fazbear Funtime Service Animatronics is dictated by a System developed by The Client Company which is no longer a part of the Service. Since that Company was let go from the Project, a group of Employees at Fazbear Entertainment have been responsible for designing the Services New Animatronics. These new Animatronics & Their Parts are Shipped to the Distribution Warehouse by DLZ Shipping Solutions. The Distribution Warehouse is responsible for Housing, Assembling, Repairing, and Distributing all Funtime Service Delivery Animatronics.</div>
+                            </span>
+                        </label>
+                    </td>
+                </tr>
         </table>
         <br>
         <br>
         <table>
             <tr class="EmployeeRow">
-                <th colspan="3">In the District Court of Utah - Fifth Judicial District Washington County</th>
+                <th colspan="3" id="T4">In the District Court of Utah - Fifth Judicial District Washington County</th>
                 <tr class="EmployeeRow">
                     <th>Judge Name</th>
                     <th>Complaint Civil No.</th>
@@ -364,12 +410,23 @@
                     <td>861467314</td>
                     <td>Two-Day bout of Food Poisoning</td>
                 </tr>
+                <tr class="EmployeeRow">
+                    <td colspan="7">
+                        <input type="checkbox" id="btnControl4">
+                        <label class="btn" for="btnControl4">
+                            <div class="addinfo">Additional Info</div>
+                            <span class="hidden">
+                                <br> All Pizzeria Simulator Lawsuits involve the plaintiff "PARENT'S UNION AGAINST UNSAFE ATROCITIES AND MECHANICAL ABOMINATIONS" ("PUAUAAMA")
+                            </span>
+                        </label>
+                    </td>
+                </tr>
         </table>
         <br>
         <br>
         <table>
             <tr class="EmployeeRow">
-                <th colspan="2">Silver Parasol Games</th>
+                <th colspan="2" id="T5">Silver Parasol Games</th>
                 <tr class="EmployeeRow">
                     <th>Name</th>
                     <th>Company & Project</th>
@@ -398,16 +455,29 @@
                     <td>Tonya</td>
                     <td>Silver Parasol Games - The Freddy Fazbear Virtual Experience</td>
                 </tr>
+                <tr class="EmployeeRow">
+                    <td colspan="7">
+                        <input type="checkbox" id="btnControl5">
+                        <label class="btn" for="btnControl5">
+                            <div class="addinfo">Additional Info</div>
+                            <span class="hidden">
+                                <br> In the process of being taken over by Glitchtrap, Jeremy likely sliced his own face off with a Guillotine Paper Slicer, while it's not confirmed what happened to him after that, odds are he went on to work at DLZ Shipping Solutions (according to his Leaked Email Address) if he survived the ordeal. Perhaps this job change was a part of Williams Plan to infiltrate The Fazbear Funtime Service.
+                                <br>
+                                <br> Inconsistencies in Tape Girl's Final Tapes point to her falling under the Influence of Glitchtrap, however her current whereabouts & identity are unknown. It's possible that her Real Name is Gabriella, Tonya, or someone we've still yet to meet. With her potentially being a Symbolic "VR Sister" to Vanessa, she may still be vital to Williams plans.
+                            </span>
+                        </label>
+                    </td>
+                </tr>
         </table>
         <br>
         <br>
         <table>
             <tr class="EmployeeRow">
-                <th colspan="3">Fazbear Entertainment Therapists</th>
+                <th colspan="3" id="T6">Fazbear Entertainment Therapy</th>
                 <tr class="EmployeeRow">
                     <th>Name</th>
-                    <th>Company/Location</th>
-                    <th>Position</th>
+                    <th>Company Position</th>
+                    <th>Status/Identity</th>
                 </tr>
                 <tr class="EmployeeRow">
                     <td>Therapist #1</td>
@@ -434,17 +504,44 @@
                     <td>Fazbear Entertainment Therapist</td>
                     <td>Unknown (Presumably Deceased)</td>
                 </tr>
+                <tr class="EmployeeRow">
+                    <td>Patient 71</td>
+                    <td>Fazbear Entertainment Therapy Patient</td>
+                    <td>Identity: Vanessa</td>
+                </tr>
+                <tr class="EmployeeRow">
+                    <td>Patient 46</td>
+                    <td>Fazbear Entertainment Therapy Patient</td>
+                    <td>Identity: Unknown</td>
+                </tr>
+                <tr class="EmployeeRow">
+                    <td colspan="7">
+                        <input type="checkbox" id="btnControl6">
+                        <label class="btn" for="btnControl6">
+                            <div class="addinfo">Additional Info</div>
+                            <span class="hidden">
+                                <br> According to something Vanessa says in The Therapist Tapes, Luis may have transferred from IT to Marketing at some point.
+                                <br><br> Vanny is likely responsible for the Disappearances & Deaths of all her Therapists. Atleast one was found Dead, Mangled in some Machinery likely housed at Fazbear Entertainment. The whereabouts of the rest are Unknown.
+                            </span>
+                        </label>
+                    </td>
+                </tr>
         </table>
         <br>
         <br>
         <table>
             <tr class="EmployeeRow">
-                <th colspan="3">Freddy Fazbear's Mega PizzaPlex Staff</th>
+                <th colspan="3" id="T7">Freddy Fazbear's Mega PizzaPlex Staff</th>
                 <tr class="EmployeeRow">
                     <th>Name</th>
                     <th>Company/Location</th>
                     <th>Position</th>
                     </th>
+                </tr>
+                <tr class="EmployeeRow">
+                    <td>Vanessa A</td>
+                    <td>Freddy Fazbear's Mega PizzaPlex</td>
+                    <td>Service Staff - Chief Security Officer</td>
                 </tr>
                 <tr class="EmployeeRow">
                     <td>Leo</td>
@@ -466,12 +563,24 @@
                     <td>Freddy Fazbear's Mega PizzaPlex</td>
                     <td>Service Staff</td>
                 </tr>
+                <tr class="EmployeeRow">
+                    <td colspan="7">
+                        <input type="checkbox" id="btnControl7">
+                        <label class="btn" for="btnControl7">
+                            <div class="addinfo">Additional Info</div>
+                            <span class="hidden">
+                                <br> As is the topic of a complaint lodged at The PizzaPlex about an employee named Dave, "He Sucks"
+                                <br><br> Vanessa A - Transferring from Security to Security (Transfer Request). The "Security" Position that Vanessa's Transfering Into is as Chief Security Officer at The PizzaPlex. Despite a Lack of Experience, Vanessa was accepted for the position, likely due to Manipulation from a Corporate Head of Fazbear Entertainment.
+                            </span>
+                        </label>
+                    </td>
+                </tr>
         </table>
         <br>
         <br>
         <table>
             <tr class="EmployeeRow">
-                <th colspan="3">Miscellaneous Companies</th>
+                <th colspan="3" id="T8">Miscellaneous Individuals</th>
                 <tr class="EmployeeRow">
                     <th>Name</th>
                     <th>Company/Location</th>
@@ -501,47 +610,39 @@
                     <td>Fredrick & Sons Law Firm</td>
                     <td></td>
                 </tr>
+                <tr class="EmployeeRow">
+                    <td colspan="7">
+                        <input type="checkbox" id="btnControl8">
+                        <label class="btn" for="btnControl8">
+                            <div class="addinfo">Additional Info</div>
+                            <span class="hidden">
+                                <br> Lisa Jameson of The Fazbear Funtime Service Distribution Center reaches out to Jimmy Hauss of DLZ Shipping Solutions about Shipment & Animatronic Issues, however, by the Final message to DLZ, Jimmy is "No Longer An Employee of DLZ Shipping Solutions". This dissapearance goes Unexplained.
+                            </span>
+                        </label>
+                    </td>
+                </tr>
         </table>
-        <br>
-        <br>
-        <div class="contentboxmain">
-            <p class="titlelink">Additional Information</p>
-            <p class="documentparagraph">Kenneth Freeman - Red Team Leader
-                <br>Stan Howser - Blue Team Leader
-                <br>Shonda Ford - Yellow Team Leader
-                <br>
-                <br> Christie Buckley - Tranferring from Marketing to Social Media Content Management (Restructuring)
-                <br> Diannah Larimore - Being Layed Off from Marketing (Restructuring)
-                <br> Paul G - Transferring from Office Administration to Executive Administration (Promotion)
-                <br> Bettie M - Tranferring from Internship Program to Development (Permanant Hire)
-                <br> Timothy M - Transferring from Internship Program to Social Media Content Management (Permanant Hire)
-                <br> Maria A - Being Layer Off from Marketing (Restructuring)
-                <br>
-                <br> According to something Vanessa says in The Therapist Tapes, Luis may have transferred from IT to Marketing at some point.
-                <br>
-                <br> Vanessa Afton - Transferring from Security to Security (Transfer Request). The "Security" Position that Vanessa's Transfering Into is as Chief Security Officer at The PizzaPlex. Despite a Lack of Experience, Vanessa was accepted for the position, likely due to Manipulation from a Corporate Head of Fazbear Entertainment.
-                <br>
-                <br> After Fazbear Entertainment realized that The Afton Virus had infiltrated The Fazbear Funtime Service Systems, they ordered The Client Company to cease all work on the Project. Work on The Fazbear Funtime Service was continued by 4 or more Employees at Fazbear Entertainment.
-                <br>
-                <br> In the process of being taken over by Glitchtrap, Jeremy likely sliced his own face off with a Guillotine Paper Slicer, while it's not confirmed what happened to him after that, odds are he went on to work at DLZ Shipping Solutions (according to his Leaked Email Address) if he survived the ordeal. Perhaps this job change was a part of Williams Plan to infiltrate The Fazbear Funtime Service.
-                <br>
-                <br> Inconsistencies in Tape Girl's Final Tapes point to her falling under the Influence of Glitchtrap, however her current whereabouts & identity are unknown. It's possible that her Real Name is Gabriella, Tonya, or someone we've still yet to meet. With her potentially being a Symbolic "VR Sister" to Vanessa, she may still be vital to Williams plans.
-                <br>
-                <br> Lisa Jameson of The Fazbear Funtime Service Distribution Center reaches out to Jimmy Hauss of DLZ Shipping Solutions about Shipment & Animatronic Issues, however by the Final message to DLZ, Jimmy is "No Longer An Employee of DLZ Shipping Solutions". This dissapearance goes Unexplained.
-                <br>
-                <br> As is the topic of a complaint lodged at The PizzaPlex about an employee named Dave, "He Sucks"
-                <br>
-                <br> Vanny is likely responsible for the Disappearances & Deaths of all her Therapists. Atleast one was found Dead, Mangled in some Machinery likely housed at Fazbear Entertainment. The whereabouts of the rest are Unknown.
-            </p>
-            <p class="titlelink">Channel Management</p>
-            <p class="documentparagraph">It's a bit tricky to understand how exactly each Client Company interacts with the others in order for The Fazbear Funtime Service to function properly, however odds are the System looks something like this. The Behavior of The Fazbear Funtime Service Animatronics is dictated by a System developed by The Client Company which is no longer a part of the Service. Since that Company was let go from the Project, a group of Employees at Fazbear Entertainment have been responsible for designing the Services New Animatronics. These new Animatronics & Their Parts are Shipped to the Distribution Warehouse by DLZ Shipping Solutions. The Distribution Warehouse is responsible for Housing, Assembling, Repairing, and Distributing all Funtime Service Delivery Animatronics.</p>
-        </div>
-        <br>
         <br>
         <br>
     </div>
 
+    <div id="sideNav1" class="sidenav">
+        <fieldset class="navfieldset">
+            <legend class="navtitle"><a class="navtitle" href="javascript:void(0)" onclick="closeNav()" title="Close Nav"><i class="fa-regular fa-circle-xmark"></i></a></legend>
+            <a class="navlinkdocument" href="#T1" onclick="closeNav()">Fazbear Entertainment 3rd Floor</a>
+            <a class="navlinkdocument" href="#T2" onclick="closeNav()">Fazbear Entertainment Miscellaneous</a>
+            <a class="navlinkdocument" href="#T3" onclick="closeNav()">The Fazbear Funtime Service Client</a>
+            <a class="navlinkdocument" href="#T4" onclick="closeNav()">The District Court of Utah</a>
+            <a class="navlinkdocument" href="#T5" onclick="closeNav()">Silver Parasol Games</a>
+            <a class="navlinkdocument" href="#T6" onclick="closeNav()">Fazbear Entertainment Therapy</a>
+            <a class="navlinkdocument" href="#T7" onclick="closeNav()">Mega PizzaPlex Staff</a>
+            <a class="navlinkdocument" href="#T8" onclick="closeNav()">Miscellaneous Individuals</a>
+        </fieldset>
+        <br>
+    </div>
+
     <div class="assistbar">
+        <a class="barbutton" href="javascript:void(0)" onclick="openNav1()"><i class="fas fa-bars" aria-hidden="true"></i></a>
         <a class="barbutton" href="#"><i class="fa fa-arrow-circle-up"></i></a>
     </div>
 
