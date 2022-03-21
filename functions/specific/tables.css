@@ -4,13 +4,13 @@ table {
 table,
 th,
 td {
-    border: 1px solid white;
+    border: 2px solid white;
     border-collapse: collapse;
-    font-size: 8px;
 }
 th,
 td {
     padding: 5px;
+    font-size: 8px;
 }
 .nobreak {
     word-break: keep-all;
@@ -24,4 +24,9 @@ td {
     td {
         font-size: 13px;
     }
+}
+.addinfopar {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
