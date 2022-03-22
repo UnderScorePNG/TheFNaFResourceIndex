@@ -18,7 +18,7 @@
 <body>
     <a href="/index.html" class="LogoLink"><img src="/images/Logo.png" class="pagelogo logoanim" title="Under_Score"></a>
     <div id="Container">
-        <p class="titlelink">The FNaF Character Index</p>
+        <p class="scotttitle">The FNaF Character Index</p>
         <table>
             <tr class="EmployeeRow">
                 <th colspan="3" id="T4">In the District Court of Utah - Fifth Judicial District Washington County</th>
@@ -287,6 +287,7 @@
                     <td>Diannah Larimore</td>
                     <td>Fazbear Entertainment</td>
                     <td>Marketing</td>
+                    <td></td>
                 </tr>
                 <tr class="EmployeeRow">
                     <td>Jack Sims</td>
@@ -629,7 +630,7 @@
         <br>
     </div>
 
-    <div id="sideNav1" class="sidenav">
+    <div id="sideNav2" class="sidenav">
         <fieldset class="navfieldset">
             <legend class="navtitle"><a class="navtitle" href="javascript:void(0)" onclick="closeNav()" title="Close Nav"><i class="fa-regular fa-circle-xmark"></i></a></legend>
             <a class="navlinkdocument" href="#T4" onclick="closeNav()">The District Court of Utah</a>
@@ -643,12 +644,24 @@
         </fieldset>
     </div>
 
-    <p id="notarget" class="hlremove">That's Not Supposed To Happen</p>
+    <div id="sideNav1" class="sidenav">
+        <fieldset class="navfieldset">
+            <legend class="navtitle"><a class="navtitle" href="javascript:void(0)" onclick="closeNav()" title="Close Nav"><i class="fa-regular fa-circle-xmark"></i></a></legend>
+            <a class="navlink" href="../pages/lore/tapes.html">Help Wanted Tapes</a>
+            <a class="navlink" href="../pages/lore/emails.html">Special Delivery Emails</a>
+            <a class="navlink" href="../pages/lore/duffelbags.html">Security Breach Duffelbags</a>
+            <hr>
+            <a class="navlink" href="../pages/lore/characters.html">Character Index</a>
+        </fieldset>
+    </div>
+
+    <p id="notarget" class="hlremove">Well That's Not Supposed To Happen</p>
 
     <div class="assistbar">
-        <a class="abarbutton" href="javascript:void(0)" onclick="openNav1()"><i class="fas fa-bars" aria-hidden="true"></i></a>
+        <a class="abarbutton" href="javascript:void(0)" onclick="openNav1()"><i class="fas fa-sitemap" aria-hidden="true"></i></a>
+        <a class="abarbutton" href="javascript:void(0)" onclick="openNav2()"><i class="fas fa-bars" aria-hidden="true"></i></a>
+        <a class="abarbutton hlbutton" href="#notarget"><i class="fas fa-rotate-right"></i></a>
         <a class="abarbutton" href="#"><i class="fa fa-arrow-circle-up"></i></a>
-        <a class="abarbutton" href="#notarget"><i class="fas fa-rotate-right"></i></a>
     </div>
 
     <script src="/functions/navigation/nav.js"></script>

@@ -8,14 +8,6 @@ body {
     background-color: black;
     font-family: 'Roboto Mono', monospace;
     color: whitesmoke;
-    -ms-overflow-style: none;
-    /*--IE/Edge Scrollbar--*/
-    scrollbar-width: none;
-    /*--Firefox Scrollbar--*/
-}
-body::-webkit-scrollbar {
-    display: none;
-    /*--Chrome/Safari/Opera Scrollbar--*/
 }
 
 /*------------------------------------------------------------------------------------*/

@@ -86,7 +86,7 @@ a.navtitle:hover {
     }
 }
 .navfieldset {
-    width: 300px;
+    width: 0px;
     margin-top: 15px;
     border: 2px whitesmoke solid;
 }
@@ -94,7 +94,7 @@ a.navtitle:hover {
 /*----------------------------------------------------------*/
 
 *:target {
-    color: #ffffA0;
+    color: #ffffa0;
 }
 .hlremove {
     display: none;
