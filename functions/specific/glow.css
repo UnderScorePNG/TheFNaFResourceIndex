@@ -1,0 +1,8 @@
+@-webkit-keyframes DriveLink {
+    from {
+        text-shadow: 0 0 2px #b91212, 0 0 4px #e50000, 0 0 6px #b91212, 0 0 8px #b91212, 0 0 10px #b91212, 0 0 12px #b91212, 0 0 14px #b91212;
+    }
+    to {
+        text-shadow: 0 0 4px black, 0 0 6px #e50000, 0 0 8px #e50000, 0 0 10px #e50000, 0 0 12px #e50000, 0 0 14px #e50000, 0 0 16px #e50000;
+    }
+}

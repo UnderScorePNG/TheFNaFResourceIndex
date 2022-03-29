@@ -2,6 +2,7 @@
     border: 3px whitesmoke solid;
     padding: 14px;
     border-radius: 1px;
+    background-color: black;
 }
 
 /*---------------------------------------------------------------------*/
@@ -18,13 +19,14 @@
 /*---------------------------------------------------------------------*/
 
 .titlelink {
-    color: whitesmoke;
+    color: white;
     font-family: Scott;
     text-align: center;
     text-decoration: none;
 }
-a.titlelink:hover {
-    text-decoration: underline;
+.titlelink a:hover {
+    color: white;
+    animation: DriveLink 1s ease-in-out infinite alternate;
 }
 
 /*---------------------------------------------------------------------*/

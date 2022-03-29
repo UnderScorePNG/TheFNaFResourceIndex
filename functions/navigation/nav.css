@@ -8,7 +8,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     bottom: 0;
     top: 0;
     background-color: rgba(0, 0, 0, 0.9);
@@ -28,12 +28,13 @@
     text-decoration: none;
     transition: 0.3s;
     font-size: 18px;
-    color: magenta;
+    color: white;
     display: block;
     white-space: nowrap;
 }
 .navlink:hover {
-    color: yellow;
+    color: white;
+    text-decoration: underline;
 }
 
 /*----------------------------------------------------------*/
@@ -57,12 +58,13 @@ a.navtitle:hover {
     text-decoration: none;
     transition: 0.3s;
     font-size: 62%;
-    color: magenta;
+    color: whitesmoke;
     display: block;
     white-space: nowrap;
 }
 .navlinkdocument:hover {
-    color: yellow;
+    color: white;
+    text-decoration: underline;
 }
 @media screen and (min-width: 960px) {
     .sidenav .navlinkdocument {
@@ -89,13 +91,11 @@ a.navtitle:hover {
     width: 0px;
     margin-top: 15px;
     border: 2px whitesmoke solid;
+    margin-left: 5px;
 }
 
 /*----------------------------------------------------------*/
 
-*:target {
-    color: #ffffa0;
-}
 .hlremove {
     display: none;
     text-align: center;
