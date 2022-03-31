@@ -9,35 +9,21 @@
 
 .pagetitle {
     color: whitesmoke;
-    font-family: F25;
-    font-size: 12px;
-    text-align: center;
-    float: center;
-    text-decoration: none;
-}
-
-/*---------------------------------------------------------------------*/
-
-.titlelink {
-    color: white;
     font-family: Scott;
-    text-align: center;
-    text-decoration: none;
-}
-.titlelink a:hover {
-    color: white;
-    animation: DriveLink 1s ease-in-out infinite alternate;
-}
-
-/*---------------------------------------------------------------------*/
-
-.scotttitle {
-    color: whitesmoke;
-    font-family: Scott;
-    font-size: 35px;
     text-align: center;
     margin-bottom: 15px;
     margin-top: 10px;
+    font-size: 20px;
+}
+@media screen and (min-width: 640px) {
+    .pagetitle {
+        font-size: 27px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .pagetitle {
+        font-size: 35px;
+    }
 }
 
 /*---------------------------------------------------------------------*/
