@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Josefine;
+    src: url(/files/fonts/josefine.ttf);
+}
+@font-face {
+    font-family: F25;
+    src: url(/fonts/F25.ttf);
+}
+@font-face {
+    font-family: Cookie;
+    src: url(/files/fonts/cookie.ttf);
+}
+@font-face {
+    font-family: Scott;
+    src: url(/fonts/beatles.ttf);
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.contentboxmain {
+    border: 2px whitesmoke solid;
+    padding: 0px;
+    background-color: black;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.documentparagraph {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+.documenthr {
+    width: 98%;
+}
+.infoparagraph {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.mainparagraph {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}

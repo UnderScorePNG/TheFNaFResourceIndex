@@ -1,0 +1,131 @@
+.chartable {
+    width: 100%;
+    background-color: black;
+}
+.chartable th,
+.chartable td,
+.chartable {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+.chartable th,
+.chartable td {
+    padding: 5px;
+    font-size: 8px;
+}
+@media screen and (min-width: 640px) {
+    .chartable th,
+    .chartable td,
+    .chartable {
+        font-size: 13px;
+    }
+}
+.addinfopar {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.nobreak {
+    word-break: keep-all;
+}
+.EmployeeRow:hover {
+    background-color: #262626;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.imgwrap {
+    position: relative;
+}
+.ImgCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainicon {
+    width: 100px;
+    height: 100px;
+}
+@media screen and (min-width: 640px) {
+    .mainicon {
+        width: 150px;
+        height: 150px;
+    }
+}
+.unfinished {
+    filter: grayscale(100);
+}
+
+/*-------------------------------------------------------------------------*/
+
+.imgdescription {
+    font-size: 12.5px;
+    background: black;
+    color: #fff;
+    transition: opacity .2s, visibility .2s;
+    margin-top: -0px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.workedon {
+    text-decoration: none;
+}
+.workedon:hover {
+    text-decoration: underline white;
+}
+.workinonit {
+    text-shadow: 0 0 9px white;
+    color: transparent;
+    text-decoration: none;
+}
+.workinonit::selection {
+    background-color: black;
+}
+
+/*-------------------------------------------------------------------------*/
+
+@media screen and (min-width: 640px) {
+    .tablepar {
+        width: 55%;
+    }
+}
+.tableblank {
+    width: 0%;
+}
+@media screen and (min-width: 900px) {
+    .tableblank {
+        width: 10%;
+    }
+}
+
+/*----------------------------------*/
+
+.tableimage {
+    width: 0%;
+}
+@media screen and (min-width: 700px) {
+    .tableimage {
+        width: 25%;
+    }
+}
+.secondaryicon {
+    width: 0%;
+}
+@media screen and (min-width: 700px) {
+    .secondaryicon {
+        width: 100%;
+    }
+}
+.secicondesc {
+    font-size: 0px;
+    color: #fff;
+    margin-top: -0px;
+    margin-bottom: -0px;
+    text-decoration: none;
+}
+@media screen and (min-width: 700px) {
+    .secicondesc {
+        font-size: 12.5px;
+        ;
+    }
+}

@@ -1,0 +1,36 @@
+#btnControl1,
+#btnControl2,
+#btnControl3,
+#btnControl4,
+#btnControl5,
+#btnControl6,
+#btnControl7,
+#btnControl8,
+#btnControl9 {
+    display: none;
+}
+#btnControl1:checked + label > .hidden,
+#btnControl2:checked + label > .hidden,
+#btnControl3:checked + label > .hidden,
+#btnControl4:checked + label > .hidden,
+#btnControl5:checked + label > .hidden,
+#btnControl6:checked + label > .hidden,
+#btnControl7:checked + label > .hidden,
+#btnControl8:checked + label > .hidden,
+#btnControl9:checked + label > .hidden {
+    display: block;
+}
+.hidden {
+    display: none;
+    border: black;
+    cursor: text;
+}
+.addinfo {
+    text-align: center;
+    text-decoration: none;
+}
+.addinfo:hover {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
